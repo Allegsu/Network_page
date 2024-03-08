@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+        Join to thousand of students interested in Cisco Basics to receive useful information
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -19,7 +19,7 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='example@domain'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              EU-ES
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'> Web Iberica Limted Andalucia - Seville - Company No 0289989. Registred Office: © 2024</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
